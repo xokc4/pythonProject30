@@ -1,0 +1,41 @@
+{% extends 'MainStore.html'%}
+{% block header %}
+<ol class="nav nav-pills ">
+            <li class="nav-link"><a href="/">Одежда</a></li>
+            <li class="nav-link"><a href="/Jacket/">Куртки</a></li>
+</ol>
+{% endblock %}
+{% block main %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <ol class="nav nav-pills flex-column">
+                <li class="mb-3">
+                    <img src="/static/image/Reebok.webp">
+                    <div>Reebok</div>
+                    <div>Кеды CLUB C 85</div>
+                </li>
+                <li class="mb-3">
+                    <img src="/static/image/Nex.webp">
+                    <div>NexPero</div>
+                    <div>Кеды</div>
+                </li>
+            </ol>
+        </div>
+        <div class="col-md-6 mb-4">
+            <ol class="nav nav-pills flex-column">
+                <li class="mb-3">
+                    <img src="/static/image/Reebok RoYal.webp">
+                    <div>Reebok</div>
+                    <div>Кеды REEBOK ROYAL COMPLETE 3</div>
+                </li>
+                <li class="mb-3">
+                    <img src="/static/image/Us.webp">
+                    <div>U.S. Polo Assn</div>
+                    <div>Кеды</div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+{% endblock %}

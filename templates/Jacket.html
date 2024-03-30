@@ -1,0 +1,42 @@
+{% extends 'MainStore.html'%}
+{% block header %}
+<ol class="nav nav-pills ">
+            <li class="nav-link"><a href="/">Одежда</a></li>
+            <li class="nav-link"><a href="/Footwear/">Обувь</a></li>
+</ol>
+{% endblock %}
+{% block main %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <ol class="nav nav-pills flex-column">
+                <li class="mb-3">
+                    <img src="/static/image/Куртка.webp">
+                    <div>Cavalli Class</div>
+                    <div>Куртка</div>
+                </li>
+                <li class="mb-3">
+                    <img src="/static/image/Mexx.webp">
+                    <div>Mexx</div>
+                    <div>Парка</div>
+                </li>
+            </ol>
+        </div>
+        <div class="col-md-6 mb-4">
+            <ol class="nav nav-pills flex-column">
+                <li class="mb-3">
+                    <img src="/static/image/Lyle amp; Scott.webp">
+                    <div>Lyle; Scott</div>
+                    <div>
+Ветровка Hooded Pocket Jacket</div>
+                </li>
+                <li class="mb-3">
+                    <img src="/static/image/Tom.webp">
+                    <div>Tom Tailor</div>
+                    <div>Парка Lamoda Online Exclusive</div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+{% endblock %}
